@@ -1,0 +1,12 @@
+version: '3.5'
+name: nestjs-service-following-good-practices
+
+services:
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: test
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+    ports:
+      - '5432:5432'

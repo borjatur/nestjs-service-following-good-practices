@@ -11,10 +11,14 @@ export class UserRepository implements IUserRepository {
 
   constructor() {
     this.datasource = new DataSource({
-      type: 'sqlite',
-      database: 'users.sqlite',
+      type: 'postgres',
+      host: 'localhost',
+      port: 5432,
+      username: 'test',
+      password: 'test',
+      database: 'test',
       entities: [User],
-      synchronize: true,
+      // synchronize: true,
     });
     this.datasource.initialize();
   }
