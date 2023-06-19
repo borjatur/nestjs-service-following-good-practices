@@ -5,6 +5,11 @@
   "author": "borja.tur@gmail.com",
   "private": true,
   "license": "UNLICENSED",
+  "homepage": "https://borjatur.com/2023/06/17/resilient-backend-signals-management/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:borjatur/nestjs-service-following-good-practices.git"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",

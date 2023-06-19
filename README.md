@@ -1,7 +1,7 @@
 ## Resilient backend
 
 ### Published
-TODO link to the article
+https://borjatur.com/2023/06/17/resilient-backend-signals-management/
 
 ### Getting started
 * docker-compose up -d
